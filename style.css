@@ -18,6 +18,16 @@ a:hover {
     cursor: pointer;
 }
 
+
+/** MODIFICATIONS AUDIT **/
+.font-size-update {
+    font-size: medium;
+}
+
+
+/** FIN MODIFICATIONS AUDIT **/
+
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -90,10 +100,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -736,7 +746,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #f8f5f5!important;
 }
 
 .portfolio-thumb {
@@ -753,7 +763,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(37, 37, 35, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,15 +781,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #0707079d;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f5f1ef!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ce0d0d;
     color: #FFFFFF!important;
 }
 
@@ -789,7 +799,8 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #faf8f8!important;
+    font-size: medium;
 }
 
 .ltc-white:hover {
@@ -822,7 +833,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/SodaPDF-converted-image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
